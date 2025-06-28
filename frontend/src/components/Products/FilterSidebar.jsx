@@ -103,9 +103,36 @@ const FilterSidebar = () => {
     updateURLParams(newFilters);
   };
 
+  const handleClearFilter = () => {
+    setFilters({
+      category: "",
+      gender: "",
+      color: "",
+      size: [],
+      material: [],
+      brand: [],
+      minPrice: 0,
+      maxPrice: 100,
+    });
+    setSearchParams({});
+  };
+
   return (
     <div className="p-4">
       <div className="text-xl font-medium text-gray-800 mb-4">Filters</div>
+      {filters.category ||
+      filters.gender ||
+      filters.color ||
+      filters.size.length > 0 ||
+      filters.material.length > 0 ||
+      filters.brand.length > 0 ? (
+        <div
+          className="text-sm font-medium text-blue-800 mb-4 cursor-pointer uppercase"
+          onClick={handleClearFilter}
+        >
+          Clear All
+        </div>
+      ) : null}
       {/* Category Filter  */}
       <div className="mb-6">
         <label className="block text-gray-600 font-medium mb-2">Category</label>

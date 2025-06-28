@@ -9,10 +9,12 @@ import FeaturesSection from "../components/Products/FeaturesSection";
 import { useDispatch, useSelector } from "react-redux";
 import { fetchProductsByFilters } from "../redux/slices/productsSlice";
 import axios from "axios";
+import { fetchCart } from "../redux/slices/cartSlice";
 
 const Home = () => {
   const dispatch = useDispatch();
   const { products, loading, error } = useSelector((state) => state.products);
+  const { user, guestId } = useSelector((state) => state.auth);
   const [bestSellerProduct, setBestSellerProduct] = useState(null);
 
   useEffect(() => {
@@ -23,6 +25,8 @@ const Home = () => {
         limit: 8,
       })
     );
+    // Fetch Cart Details
+    dispatch(fetchCart({ userId: user._id, guestId }));
     // Fetch Best seller products
     const fetchBestSeller = async () => {
       try {
