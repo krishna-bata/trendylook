@@ -26,7 +26,9 @@ const Home = () => {
       })
     );
     // Fetch Cart Details
-    dispatch(fetchCart({ userId: user._id, guestId }));
+    if (user) {
+      dispatch(fetchCart({ userId: user._id, guestId }));
+    }
     // Fetch Best seller products
     const fetchBestSeller = async () => {
       try {
@@ -39,7 +41,7 @@ const Home = () => {
       }
     };
     fetchBestSeller();
-  }, [dispatch]);
+  }, [dispatch, user]);
 
   return (
     <div>
