@@ -4,6 +4,15 @@
 ### **Live Demo:** [TrendyLook](https://trendylook-frontend.vercel.app/)  
 
 
+## **Test Credentials** 
+Email : user.test@gmail.com  
+Password : Test@123
+
+## **Paypal Credentials for payment** 
+Email : sb-kombi41517140@personal.example.com  
+Password : AW.9zN!Q
+
+
 ## **Overview**  
 TrendyLook is a modern, full-stack e-commerce platform built with the MERN stack (MongoDB, Express.js, React, Node.js). Users can browse trending fashion styles, view product details, and securely complete purchases.
 
