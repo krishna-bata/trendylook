@@ -18,11 +18,19 @@ const products = [
     gender: "Men",
     images: [
       {
-        url: "https://picsum.photos/500/500?random=39",
+        url: "https://res.cloudinary.com/djuk9f8qf/image/upload/v1752929952/Product1_1_psxfhm.jpg",
         altText: "Classic Oxford Button-Down Shirt Front View",
       },
       {
-        url: "https://picsum.photos/500/500?random=40",
+        url: "https://res.cloudinary.com/djuk9f8qf/image/upload/v1752929952/Product1_2_vjusfv.jpg",
+        altText: "Classic Oxford Button-Down Shirt Back View",
+      },
+      {
+        url: "https://res.cloudinary.com/djuk9f8qf/image/upload/v1752929952/Product1_3_qtj2ea.jpg",
+        altText: "Classic Oxford Button-Down Shirt Front View",
+      },
+      {
+        url: "https://res.cloudinary.com/djuk9f8qf/image/upload/v1752929952/Product1_4_ev3ahg.jpg",
         altText: "Classic Oxford Button-Down Shirt Back View",
       },
     ],
@@ -46,11 +54,19 @@ const products = [
     gender: "Men",
     images: [
       {
-        url: "https://picsum.photos/500/500?random=41",
+        url: "https://res.cloudinary.com/djuk9f8qf/image/upload/v1752930064/Product2_1_opvtys.jpg",
         altText: "Slim-Fit Stretch Shirt Front View",
       },
       {
-        url: "https://picsum.photos/500/500?random=42",
+        url: "https://res.cloudinary.com/djuk9f8qf/image/upload/v1752930065/Product2_2_ejcuok.jpg",
+        altText: "Slim-Fit Stretch Shirt Back View",
+      },
+      {
+        url: "https://res.cloudinary.com/djuk9f8qf/image/upload/v1752930066/Product2_3_ol2uen.jpg",
+        altText: "Slim-Fit Stretch Shirt Front View",
+      },
+      {
+        url: "https://res.cloudinary.com/djuk9f8qf/image/upload/v1752930066/Product2_4_lfnagi.jpg",
         altText: "Slim-Fit Stretch Shirt Back View",
       },
     ],
@@ -74,11 +90,19 @@ const products = [
     gender: "Men",
     images: [
       {
-        url: "https://picsum.photos/500/500?random=43",
+        url: "https://res.cloudinary.com/djuk9f8qf/image/upload/v1752930097/Product3_1_ltkmu4.jpg",
         altText: "Casual Denim Shirt Front View",
       },
       {
-        url: "https://picsum.photos/500/500?random=44",
+        url: "https://res.cloudinary.com/djuk9f8qf/image/upload/v1752930097/Product3_2_qcwxuf.jpg",
+        altText: "Casual Denim Shirt Back View",
+      },
+      {
+        url: "https://res.cloudinary.com/djuk9f8qf/image/upload/v1752930098/Product3_3_llkkzt.jpg",
+        altText: "Casual Denim Shirt Front View",
+      },
+      {
+        url: "https://res.cloudinary.com/djuk9f8qf/image/upload/v1752930099/Product3_4_h6uq3a.jpg",
         altText: "Casual Denim Shirt Back View",
       },
     ],
@@ -102,11 +126,15 @@ const products = [
     gender: "Men",
     images: [
       {
-        url: "https://picsum.photos/500/500?random=45",
+        url: "https://res.cloudinary.com/djuk9f8qf/image/upload/v1752930123/Product4_1_ckd2if.jpg",
         altText: "Printed Resort Shirt Front View",
       },
       {
-        url: "https://picsum.photos/500/500?random=1",
+        url: "https://res.cloudinary.com/djuk9f8qf/image/upload/v1752930124/Product4_2_kmq4mt.jpg",
+        altText: "Printed Resort Shirt Back View",
+      },
+      {
+        url: "https://res.cloudinary.com/djuk9f8qf/image/upload/v1752930125/Product4_3_vreea4.jpg",
         altText: "Printed Resort Shirt Back View",
       },
     ],
@@ -130,11 +158,19 @@ const products = [
     gender: "Men",
     images: [
       {
-        url: "https://picsum.photos/500/500?random=47",
+        url: "https://res.cloudinary.com/djuk9f8qf/image/upload/v1752930133/Product5_1_pced7m.jpg",
         altText: "Slim-Fit Easy-Iron Shirt Front View",
       },
       {
-        url: "https://picsum.photos/500/500?random=2",
+        url: "https://res.cloudinary.com/djuk9f8qf/image/upload/v1752930134/Product5_2_ipvpbf.jpg",
+        altText: "Slim-Fit Easy-Iron Shirt Front View",
+      },
+      {
+        url: "https://res.cloudinary.com/djuk9f8qf/image/upload/v1752930136/Product5_3_wxcbnm.jpg",
+        altText: "Slim-Fit Easy-Iron Shirt Front View",
+      },
+      {
+        url: "https://res.cloudinary.com/djuk9f8qf/image/upload/v1752930137/Product5_4_y7c8uk.jpg",
         altText: "Slim-Fit Easy-Iron Shirt Front View",
       },
     ],
@@ -158,11 +194,19 @@ const products = [
     gender: "Men",
     images: [
       {
-        url: "https://picsum.photos/500/500?random=3",
+        url: "https://res.cloudinary.com/djuk9f8qf/image/upload/v1752930149/Product6_1_omp2lq.jpg",
         altText: "Polo T-Shirt Front View",
       },
       {
-        url: "https://picsum.photos/500/500?random=4",
+        url: "https://res.cloudinary.com/djuk9f8qf/image/upload/v1752930150/Product6_2_cvwsse.jpg",
+        altText: "Polo T-Shirt Back View",
+      },
+      {
+        url: "https://res.cloudinary.com/djuk9f8qf/image/upload/v1752930151/Product6_3_bk0zmk.jpg",
+        altText: "Polo T-Shirt Front View",
+      },
+      {
+        url: "https://res.cloudinary.com/djuk9f8qf/image/upload/v1752930153/Product6_4_nd1ckz.jpg",
         altText: "Polo T-Shirt Back View",
       },
     ],
@@ -186,7 +230,19 @@ const products = [
     gender: "Men",
     images: [
       {
-        url: "https://picsum.photos/500/500?random=5",
+        url: "https://res.cloudinary.com/djuk9f8qf/image/upload/v1752930163/Product7_1_n3pehq.jpg",
+        altText: "Oversized Graphic T-Shirt Front View",
+      },
+      {
+        url: "https://res.cloudinary.com/djuk9f8qf/image/upload/v1752930163/Product7_2_dxwcnr.jpg",
+        altText: "Oversized Graphic T-Shirt Front View",
+      },
+      {
+        url: "https://res.cloudinary.com/djuk9f8qf/image/upload/v1752930164/Product7_3_drdewn.jpg",
+        altText: "Oversized Graphic T-Shirt Front View",
+      },
+      {
+        url: "https://res.cloudinary.com/djuk9f8qf/image/upload/v1752930166/Product7_4_ct0roi.jpg",
         altText: "Oversized Graphic T-Shirt Front View",
       },
     ],
@@ -210,7 +266,15 @@ const products = [
     gender: "Men",
     images: [
       {
-        url: "https://picsum.photos/500/500?random=6",
+        url: "https://res.cloudinary.com/djuk9f8qf/image/upload/v1752930222/Product8_1_fnvbuk.jpg",
+        altText: "Regular-Fit Henley Shirt Front View",
+      },
+      {
+        url: "https://res.cloudinary.com/djuk9f8qf/image/upload/v1752930223/Product8_2_fq5ayq.jpg",
+        altText: "Regular-Fit Henley Shirt Front View",
+      },
+      {
+        url: "https://res.cloudinary.com/djuk9f8qf/image/upload/v1752930225/Product8_3_aaqbb8.jpg",
         altText: "Regular-Fit Henley Shirt Front View",
       },
     ],
@@ -234,7 +298,15 @@ const products = [
     gender: "Men",
     images: [
       {
-        url: "https://picsum.photos/500/500?random=7",
+        url: "https://res.cloudinary.com/djuk9f8qf/image/upload/v1752930242/Product9_1_j6xdba.jpg",
+        altText: "Long-Sleeve Thermal Tee Front View",
+      },
+      {
+        url: "https://res.cloudinary.com/djuk9f8qf/image/upload/v1752930244/Product9_2_puhcff.jpg",
+        altText: "Long-Sleeve Thermal Tee Front View",
+      },
+      {
+        url: "https://res.cloudinary.com/djuk9f8qf/image/upload/v1752930245/Product9_3_fw8mup.jpg",
         altText: "Long-Sleeve Thermal Tee Front View",
       },
     ],
@@ -258,7 +330,19 @@ const products = [
     gender: "Men",
     images: [
       {
-        url: "https://picsum.photos/500/500?random=8",
+        url: "https://res.cloudinary.com/djuk9f8qf/image/upload/v1752930256/Product10_1_urkjmc.jpg",
+        altText: "V-Neck Classic T-Shirt Front View",
+      },
+      {
+        url: "https://res.cloudinary.com/djuk9f8qf/image/upload/v1752930257/Product10_2_cmqfnr.jpg",
+        altText: "V-Neck Classic T-Shirt Front View",
+      },
+      {
+        url: "https://res.cloudinary.com/djuk9f8qf/image/upload/v1752930260/Product10_3_useknu.jpg",
+        altText: "V-Neck Classic T-Shirt Front View",
+      },
+      {
+        url: "https://res.cloudinary.com/djuk9f8qf/image/upload/v1752930263/Product10_4_ox88tk.jpg",
         altText: "V-Neck Classic T-Shirt Front View",
       },
     ],
